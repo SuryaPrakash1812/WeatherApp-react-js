@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+background-image: url("./images/bgweatherapp.webp");
+  background-repeat: no-repeat;
+background-size: 1650px 850px;
+  
+}
+ 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar
+{
+  display: flex;
+
+  align-content: center;
+  font-family: sans-serif;
+  color: aliceblue;
+  height: 50px;
+  font-family: sans-serif;
+margin-left: 80px;
+}
+.heading
+{
+ margin: auto;
+ color: black;
+ font-weight: bolder;
+}
+.icon
+{
+  width: 53px;
+  height: 50px;
+ margin: auto;
+}
+.bodycard
+{
+  margin-left: 10px;
+}
+.maincard
+{
+ 
+
+  margin-top: 10px;
+  margin-left:570px;
+  align-content: center;
+  background-color:none;
+
+ width: 497px;
+ height:650px;
+ box-shadow: rgb(44, 44, 44);
+ border-radius: 20px;
+ border-color: rgb(41, 40, 40);
+}
+
+.list
+{
+  margin: 2px;
+  padding-top: 10px;
+  display: flex;
+  padding: 0px 620px;
+}
+
+.search
+{
+  text-align-last: center;
+  margin-left:570px;
+  width: 410px;
+  margin-top: 20px;
+  margin-right: 5px;
+  height: 42px;
+  border-radius: 13px;
+  font-weight:600 ;
+  
+}
+.temp-icon
+{
+
+  border-radius: 100px;
+  height: 40px;
+  margin-right: 20px;
+}
+.up-card
+{
+  background-image: url("./images/weather.gif");
+  background-repeat: no-repeat;
+  background-size: 650px 500px;
+  background-position: 50% 00%; 
+margin: 0;
+  height: 300px;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  width: 495px;
+  
+}
+
+.city
+{
+  color: rgb(203, 200, 196);
+  font-size: 35px;
+  margin-left:200px;
+}
+.temperature
+{
+  padding-top: 30px;
+  padding-bottom: 25px;
+  display: flex;
+  color: rgb(51, 51, 26);
+}
+.humidity-icon
+{
+  height: 40px;
+  border-radius: 60px;
+  margin-right: 20px;
+  
+}
+.humidity
+{
+  display: flex;
+  color: rgb(51, 51, 26);
+  margin-bottom: 20px;
+}
+
+.windspeed
+{
+  display: flex;
+  color: rgb(51, 51, 26);
+
+}
+.windspeed-icon
+{
+border-radius: 30px;
+margin-right: 25px;
+height: 40px;
+}
+
+.temp-value,.humidity-value,.windspeed-value
+{
+  font-size: 28px;
+}
+.pressure
+{
+  margin-top: 20px;
+  display: flex;
+}
+.pressure-icon
+{
+  border-radius: 30px;
+  height: 40px;
+  margin-right: 25px;
+ 
+}
+.caution
+{
+  font-size: 25px;
+  margin-left: 700px;
+  margin-bottom: 0px;
+  color: rgb(137, 42, 42);
+  font-family: sans-serif;
+}
